@@ -31,5 +31,19 @@ const age2 = calcAge(years[2]);
 const age3 = calcAge(years[years.length - 1]);
 console.log(age1, age2, age3);
 
+//User input array
+
+const input = require("readline-sync");
+let numbers = [];
+let n = Number(input.question("How many array items do you want to enter"));
+
+for(let i = 0; i < n; i++)
+{
+    let p = Number(input.question("Enter a number"));
+    numbers.push(p);
+}
+
+console.log("The newly created array is", numbers);
+
 
 
