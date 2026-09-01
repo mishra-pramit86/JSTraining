@@ -33,7 +33,7 @@ console.log(age1, age2, age3);
 
 //User input array
 
-const input = require("readline-sync");
+const input = require("readline-sync"); // Downloaded and configured this package in the project folder of JSTraining
 let numbers = [];
 let n = Number(input.question("How many array items do you want to enter"));
 
