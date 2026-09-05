@@ -82,8 +82,7 @@ console.log(myName.trimStart());
 
 let name = new String("Pramit")
 console.log(name);                 //[String: 'Pramit']
-console.log(name.toString());      // Pramit
-
+console.log(name.toString());      // Pram
 
 
 
