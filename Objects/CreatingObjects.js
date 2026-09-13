@@ -1,3 +1,16 @@
+// Creating an object with 'new'
+
+const person = new Object();
+
+person.firstName = "Pramit";
+person.lastName = "Mishra";
+person.age = 35;
+
+console.log(person);
+
+console.log('---------------------------------------------------------------')
+
+
 const jonasArray = ['Jonas', 'Cook', 1986 - 2026, 'Tester', ['Peter', 'Steve', 'Mayank']]
 
 const jonas = {
@@ -29,4 +42,15 @@ for (let key in jonas)
 {
     console.log(jonas[key]);
 }
+
+console.log("-------------------------------------------------------------------------------------")
+
+// Use of 'of' in object values iteration
+
+for(let val of Object.values(jonas))
+{
+    console.log(val);
+}
+
+// Dynamically work on key= 'value'
 
