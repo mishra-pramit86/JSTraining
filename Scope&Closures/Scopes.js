@@ -58,7 +58,7 @@ function test()
 {
     let myName = 'Local Pramit';
 
-    console.log('This will print the name of Local Pramit')
+    console.log('This will print the name of Local Pramit', myName)
 }
 
 test(); //This will print the name of Local Pramit

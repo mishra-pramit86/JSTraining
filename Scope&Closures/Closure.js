@@ -58,7 +58,8 @@ function outer()
 {
     const message = 'Hello';
     function inner()
-    {
+    { 
+        const name = 'Jack'  
         console.log(message);
         console.log(name);
     }

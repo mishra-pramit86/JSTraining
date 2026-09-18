@@ -100,3 +100,26 @@ function myTest()
     }
 }
 console.log(myTest());
+
+// Create a custom error for throw new error
+
+function checkAge(age){
+    try{
+        console.log('Try block started');
+
+        if(age <= 18){
+            throw new Error("Age must be 18 or above")
+        }
+
+        console.log("Age is valid");
+
+    }
+    catch(error){
+        console.log("Catch block executed");
+        console.log("Error:", error.message);
+    }
+    finally{
+        console.log("Final block executed")
+    }
+}
+checkAge(18);
