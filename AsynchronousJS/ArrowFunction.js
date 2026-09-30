@@ -50,3 +50,26 @@ const logArgs2 = (...args) => {
   console.log(args[0], args[1]);
 };
 logArgs2("apple", "orange"); // "apple", "orange"
+
+//This and arrow function
+
+const person = {
+    name: "Pramit",
+
+    greet: () => {
+        console.log(this.name);
+    }
+};
+
+person.greet();
+
+
+const person2 = {
+    name2: "Pramit",
+
+    greet2() {
+        console.log(this.name2);
+    }
+};
+
+person2.greet2();

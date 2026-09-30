@@ -38,3 +38,17 @@ const restaurant = {
 }
 const newRestaurant = {foundedIn: 2025, ...restaurant}
 console.log(newRestaurant);
+
+// Rest in Array Destructuring
+
+const [first, second, ...others] = ['Red', 'Blue', 'Green', 'Yellow'];
+console.log(first);  // 'Red'
+console.log(others); // ['Green', 'Yellow']
+
+//Rest in Object Destructuring
+
+const settings = { theme: 'dark', font: 'Arial', size: 14 };
+const { theme, ...typography } = settings;
+console.log(theme);      // 'dark'
+console.log(typography); // { font: 'Arial', size: 14 }
+
