@@ -35,6 +35,13 @@ selector: p[data-cy="MyTripsWidgetText"]
 website used: https://www.makemytrip.com/
 Element: 'Search' button
 selector: a.widgetSearchBtn 
-*/ 
+*/
+
+/*
+website used : https://in.bookmyshow.com/explore/home/kanpur
+Element: Sign In button
+selector: button[aria-label="Sign in"]
+*/
+
 
 
