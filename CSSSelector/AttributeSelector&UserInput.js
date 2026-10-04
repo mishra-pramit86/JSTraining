@@ -1,7 +1,7 @@
 /*
 website used : https://www.amazon.in/
 Element: search box
-attribute selector: input[aria-label="Search Amazon.in"] 
+attribute selector: input[aria-label="Search Amazon.in"]
 */
 
 /*
@@ -14,7 +14,7 @@ selector: input[value="Go"]
 website used : https://www.ajio.com/
 Element: search box
 user input: #search
-Attribute selector: input[aria-label] 
+Attribute selector: input[aria-label]
 */
 
 /*
@@ -46,6 +46,3 @@ website used : https://www.irctc.co.in/
 Element: Select date in date picker
 combinator: td.ui-datepicker-today > a.ui-state-active
 */
-
-
-
