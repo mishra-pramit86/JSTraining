@@ -24,12 +24,6 @@ selector: input[name="mobileNumber"]
 */
 
 /*
-website used : https://www.ajio.com/
-Element: sign in panel
-selector: input[name="mobileNumber"]
-*/
-
-/*
 website used : https://www.irctc.co.in/
 Element: From station input box
 selector: input[aria-label="Enter From station. Input is Mandatory."]
@@ -45,4 +39,10 @@ selector: input[aria-label="Enter To station. Input is Mandatory."]
 website used : https://www.irctc.co.in/
 Element: Select date in date picker
 combinator: td.ui-datepicker-today > a.ui-state-active
+*/
+
+/*
+website used : https://in.bookmyshow.com/explore/home/kanpur
+Element: Movies tab 
+combinator: a[href="/explore/movies-kanpur?cat=MT"]
 */
