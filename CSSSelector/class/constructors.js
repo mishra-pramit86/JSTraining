@@ -4,5 +4,26 @@
 website used : https://www.amazon.in/
 Element: Amazon logo
 class selector: a.nav-logo-link
-*/ 
+*/
+
+/*
+website used: https://www.makemytrip.com/
+Element: 'Search' button
+selector: a.widgetSearchBtn 
+*/
+
+/*
+website used : https://www.amazon.in/
+Element: Rufus button
+class selector: div.nav-rufus-disco-text
+*/
+
+/*
+website used : https://www.amazon.in/
+Element: Account & Lists button
+class selector: a[aria-controls="nav-flyout-accountList"] span.nav-line-2
+*/
+
+
+
 

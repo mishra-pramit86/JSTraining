@@ -31,3 +31,16 @@ Example:
 </ul>
 selector: li:nth-of-type(2) //Output - Products
 */
+
+/*
+:nth-child() - counts every child element
+Example:
+<div>
+    <h2>Products</h2>
+    <p>Product 1</p>
+    <p>Product 2</p>
+    <p>Product 3</p>
+</div>
+selector: p:nth-child(2)
+
+*/

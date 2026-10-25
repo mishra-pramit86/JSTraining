@@ -1,1 +1,0 @@
-const isPassed = (status) => status === "Passed"
